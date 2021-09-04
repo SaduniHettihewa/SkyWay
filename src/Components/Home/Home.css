@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    flex: 1;
+
+    
+}
+.Walpaper{
+    background-size: cover; 
+    height: 60%;
+    width: 100%;
+ 
+}
