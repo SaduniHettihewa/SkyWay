@@ -14,3 +14,27 @@
   position:absolute;
   left:28%;
 }
+.buttonPlace{
+    position: relative;
+    left:50%;
+    top: 60%;
+}
+.button {
+    transition: all .5s ease;
+    color: rgb(83, 78, 78);
+    border: 3px solid  rgb(99, 93, 93);
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+.button:hover {
+    color: #edf2f5;
+    background-color: rgb(37, 195, 223);
+    border: 3px solid  rgb(37, 195, 223);
+}
