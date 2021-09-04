@@ -1,0 +1,16 @@
+.Login{
+    background-color: rgb(211, 244, 247);
+    height: 568px;
+
+}
+
+
+.LoginLogo{
+    height: 300px;
+    width: 400px;
+    align-items:center;
+    justify-content: center;
+   position: absolute;
+   left: 10%;
+  bottom: 30%;
+  }
