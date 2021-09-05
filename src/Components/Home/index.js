@@ -11,16 +11,16 @@ function Home() {
     return (
         <div className="home">
             <div className="logo">
-            <img src={require("../../Assests/logo.png").default} className="logo"></img>
+                <img src={require("../../Assests/logo.png").default} className="logo"></img>
             </div>
             <div className="buttonPlace">
-     
-      <button className="button" onClick={()=> history.push("/Login")}>
-     
-      Let's Get Started
-                 
+
+                <button className="button" onClick={() => history.push("/Login")}>
+
+                    Let's Get Started
+
                 </button>
-              
+
             </div>
 
         </div>

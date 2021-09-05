@@ -1,11 +1,11 @@
 import React from 'react'
 import './Login.css'
 import { Link } from 'react-router-dom';
-
+import { useHistory } from 'react-router-dom';
 //Login page
 
 function Login() {
-
+  const history = useHistory();
   return (
     <div className="Login">
       <div>
@@ -35,13 +35,13 @@ function Login() {
             placeholder="Enter your password"
           />
           <div>
-            <button type="submit" className="Loginbutton" >
+            <button type="submit" className="Loginbutton"  onClick={() => history.push("/Dashboard")}>
               Login
             </button>
           </div>
           <div>
-            <lable className="account" > Don't have an account ? 
-          <Link to="/Signup" className="SignupLink"> SignUp </Link></lable>
+            <lable className="account" > Don't have an account ?
+              <Link to="/Signup" className="SignupLink"> SignUp </Link></lable>
           </div>
         </form>
       </div>

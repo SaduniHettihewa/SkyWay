@@ -1,77 +1,70 @@
-.Login{
+.Login {
     background-color: rgb(238, 244, 245);
     height: 568px;
-
 }
 
-
-.LoginLogo{
+.LoginLogo {
     height: 300px;
     width: 400px;
-    align-items:center;
+    align-items: center;
     justify-content: center;
-   position: absolute;
-   left: 10%;
-  bottom: 30%;
-  }
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
 
-  .loginView{
-    position:absolute;
+.loginView {
+    position: absolute;
     bottom: 15%;
-   left: 60%;
-   max-width: 300px;
-   width: 50%;
-   align-items: center;
-   justify-content: center;
-   border: 2px solid rgb(114, 199, 233);
-   border-radius: 50px;
-   border-style:dashed;
-  padding-top: 80px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 50px;
+    left: 60%;
+    max-width: 300px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(114, 199, 233);
+    border-radius: 50px;
+    border-style: dashed;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
 
-  }
- 
+.LoginLable {
+    color: rgb(72, 189, 209);
+    font-size: 30px;
+    font-weight: 800;
+    position: absolute;
+    bottom: 85%;
+    left: 30%;
+    align-items: center;
+    justify-content: center;
+}
 
-
-  .LoginLable{
-      color:  rgb(72, 189, 209);
-      font-size: 30px;
-      font-weight: 800;
-      position: absolute;
-      bottom: 85%;
-      left: 30%;
-      align-items: center;
-      justify-content: center;
-     
-  }
-
-   
-  label,
-  input {
-    display:block;
+label,
+input {
+    display: block;
     width: 100%;
-    color:rgb(146, 149, 150) ;
+    color: rgb(146, 149, 150);
     font-weight: 500;
     width: 300px;
-  }
-  
-  label {
+}
+
+label {
     margin-bottom: 5px;
     height: 22px;
     margin-left: 10px;
-  }
-  
-  input {
+}
+
+input {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 30px;
     border: 2px solid rgb(248, 246, 246);
     width: 250px;
-  }
-  .Loginbutton{
-    
+}
+
+.Loginbutton {
     width: 150px;
     border-radius: 30px;
     align-items: center;
@@ -83,15 +76,15 @@
     margin-left: 60px;
     margin-bottom: 20px;
     margin-top: 20px;
-  }
-  .account{
-      color:rgb(51, 154, 161)  ;
-     font-size: 14px;
-     margin-left: 10px;
-    
-  }
-  .SignupLink{
-    color:rgb(51, 154, 161)  ;
+}
+
+.account {
+    color: rgb(51, 154, 161);
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.SignupLink {
+    color: rgb(51, 154, 161);
     text-decoration: none;
-  }
-  
+}
