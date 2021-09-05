@@ -1,0 +1,96 @@
+.Signup{
+    background-color: rgb(238, 244, 245);
+    height: 568px;
+
+}
+
+
+.SignupLogo{
+    height: 300px;
+    width: 400px;
+    align-items:center;
+    justify-content: center;
+   position: absolute;
+   left: 10%;
+  bottom: 30%;
+  }
+
+  .SignupView{
+    position:absolute;
+bottom: 10%;
+   left: 60%;
+   max-width: 300px;
+   width: 50%;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgb(114, 199, 233);
+   border-radius: 50px;
+   border-style:dashed;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+
+  }
+ 
+
+
+  .SignupLable{
+      color:  rgb(72, 189, 209);
+      font-size: 30px;
+      font-weight: 800;
+      position: absolute;
+      bottom: 85%;
+      left: 30%;
+      align-items: center;
+      justify-content: center;
+     
+  }
+
+   
+  label,
+  input {
+    display:block;
+    width: 100%;
+    color:rgb(52, 205, 216) ;
+    font-weight: 500;
+    width: 300px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    height: 22px;
+    margin-left: 10px;
+  }
+  
+  input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(248, 246, 246);
+    width: 250px;
+  }
+  .Signupbutton{
+    
+    width: 150px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    background-color: rgb(72, 189, 209);
+    color: white;
+    border: 1px solid rgb(94, 190, 219);
+    margin-left: 60px;
+    margin-bottom: 20px;
+  }
+  .account{
+      color:rgb(51, 154, 161)  ;
+     font-size: 14px;
+     margin-left: 10px;
+    
+  }
+  .SignupLink{
+    color:rgb(51, 154, 161)  ;
+    text-decoration: none;
+  }
+  

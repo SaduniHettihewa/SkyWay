@@ -3,12 +3,7 @@
     height: 568px;
 
 }
-.box{
-   width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-}
+
 
 .LoginLogo{
     height: 300px;
@@ -93,5 +88,9 @@
      font-size: 14px;
      margin-left: 10px;
     
+  }
+  .SignupLink{
+    color:rgb(51, 154, 161)  ;
+    text-decoration: none;
   }
   
