@@ -57,8 +57,8 @@ function Signup() {
             </button>
           </div>
           <div>
-            <lable className="account" > Don't have an account ? 
-          <Link to="/Signup" className="SignupLink"> SignUp </Link></lable>
+            <lable className="account" > Already  have an account ? 
+          <Link to="/Login" className="SignupLink"> Login </Link></lable>
           </div>
         </form>
       </div>
