@@ -1,0 +1,27 @@
+.body{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+
+.cardBackground{
+    height: 80px;
+}
+.card{
+    border-color: black;
+    margin-left: 30px;
+}
+.profile{
+    height: 100px;
+    
+    align-items: center;
+    justify-content: center;
+
+}
+.nameTitle{
+    font-size: 26px;
+    font-weight: 500;
+}

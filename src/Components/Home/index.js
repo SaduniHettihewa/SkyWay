@@ -10,6 +10,7 @@ function Home() {
     const history = useHistory();
     return (
         <div className="home">
+            
             <div className="logo">
                 <img src={require("../../Assests/logo.png").default} className="logo"></img>
             </div>
@@ -22,8 +23,7 @@ function Home() {
                 </button>
 
             </div>
-
-        </div>
+            </div>
     )
 }
 

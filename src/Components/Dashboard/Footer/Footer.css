@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+.form{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border: 1px soid black;
+}
+.input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    color: darkgrey;
+}
+.add-button{
+    width: 50px;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 5px;
+    border: 2px solid rgb(97, 97, 97);
+    border-radius: 30px;
+    outline: none;
+    margin-left: 150px;
+}
+.add-button:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}
