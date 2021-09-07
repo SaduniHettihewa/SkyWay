@@ -14,6 +14,7 @@
 }
 
 .loginView {
+    background-color: white;
     position: absolute;
     bottom: 15%;
     left: 60%;
@@ -24,21 +25,22 @@
     border: 2px solid rgb(114, 199, 233);
     border-radius: 50px;
     border-style: dashed;
-    padding-top: 130px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 50px;
+    
 }
 
 .LoginLable {
     color: rgb(72, 189, 209);
     font-size: 30px;
     font-weight: 800;
-    position: absolute;
-    bottom: 85%;
-    left: 30%;
-    align-items: center;
+    bottom: 90%;
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
 }
 
 label,
@@ -60,8 +62,17 @@ input {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 30px;
-    border: 2px solid rgb(248, 246, 246);
+    border: 2px solid rgb(52, 205, 216);
     width: 250px;
+}
+
+.buttondiv {
+    margin-bottom: 20px;
+    width: 300px;
+    margin-top: 10px; display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
 }
 
 .Loginbutton {
@@ -73,9 +84,6 @@ input {
     background-color: rgb(72, 189, 209);
     color: white;
     border: 1px solid rgb(94, 190, 219);
-    margin-left: 60px;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .account {

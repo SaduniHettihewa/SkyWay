@@ -34,7 +34,7 @@ function Login() {
             type="password"
             placeholder="Enter your password"
           />
-          <div>
+          <div className="buttondiv">
             <button type="submit" className="Loginbutton"  onClick={() => history.push("/Dashboard")}>
               Login
             </button>
