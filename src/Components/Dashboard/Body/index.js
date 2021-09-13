@@ -7,16 +7,16 @@ import { Link } from 'react-router-dom'
 function Body() {
     const cardBackground = require("../../../Assests/cardBackground.jpg").default
     return (
-        <div className="body">
-            <Card className="card" style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={cardBackground}  className="cardBackground"/>
+        <div className="body1">
+            <Card className="card1" style={{ width: '18rem',marginLeft:'10px' }}>
+                <Card.Img variant="top" src={cardBackground}  className="cardBackground1"/>
                 <div>
                     <Link to="/Profile" >
-                <img src={require("../../../Assests/profile.png").default} className="profile"></img>
+                <img src={require("../../../Assests/profile.png").default} className="profile1"></img>
                 </Link>
                 </div>
                 <Card.Body>
-                    <Card.Title className="nameTitle">Dulini Chamathka</Card.Title>
+                    <Card.Title className="nameTitle1">Dulini Chamathka</Card.Title>
                     <Card.Text>
                        Travel to live ,Live to Travel
                     </Card.Text>
