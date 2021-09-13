@@ -5,8 +5,9 @@ import isEmpty from "validator/lib/isEmpty";
 import isEmail from "validator/lib/isEmail";
 import equals from "validator/lib/equals";
 import { Link } from "react-router-dom";
-import { useHistory } from "react-router-dom";
 import { usersignup } from "../../API/auth";
+import Swal from 'sweetalert2'
+
 
 const Signup = (props) => {
   const [firstname, setFirstname] = useState("");
@@ -15,6 +16,7 @@ const Signup = (props) => {
   const [password, setPassword] = useState("");
   const [password2, setPassword2] = useState("");
 
+  
   const handleSubmit = (evt) => {
     //evt.preventDefault();
     if (
@@ -24,13 +26,13 @@ const Signup = (props) => {
       isEmpty(password) ||
       isEmpty(password2)
     ) {
-      alert("All fields are required");
+      Swal.fire("All fields are required");
       return;
     } else if (!isEmail(email)) {
-      alert("Inavalid email");
+      Swal.fire("Inavalid email");
       return;
     } else if (!equals(password, password2)) {
-      alert("Passwords do not match");
+      Swal("Passwords do not match");
       console.log("ss")
       return;
     } else {
@@ -105,7 +107,7 @@ const Signup = (props) => {
             onChange={(e) => setPassword2(e.target.value)}
           />
           <div className="buttondiv">
-            <button type="submit" className="Signupbutton">
+            <button type="submit" className="Signupbutton" >
               SignUp
             </button>
           </div>

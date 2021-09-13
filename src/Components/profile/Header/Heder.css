@@ -1,0 +1,27 @@
+.HeaderProfile{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+    align-items: center;
+}
+
+.cardBackground{
+    height: 80px;
+    width: 1000px;
+}
+.card{
+    border-color: black;
+    margin-left: 200px;
+    align-items: center;
+    justify-content: center;
+}
+.profilepic{
+  height: 120px;
+
+}
+.nameTitle{
+    font-size: 26px;
+    font-weight: 500;
+}

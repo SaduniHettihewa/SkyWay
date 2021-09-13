@@ -3,6 +3,7 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import Dashboard from './Components/Dashboard';
 import Home from './Components/Home/index'
 import Login from './Components/Login/index'
+import Profile from './Components/profile';
 import Signup from './Components/Signup';
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       </Route>
       <Route path="/Dashboard" component={Dashboard}>
       <Dashboard/>
+      </Route>
+      <Route path="/Profile" component={Profile}>
+      <Profile/>
       </Route>
       <Route path="/" component={Home}>
       <Home/>
