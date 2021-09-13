@@ -16,7 +16,7 @@
     padding: 10px;
     border-radius: 15px;
     outline: none;
-    color: darkgrey;
+    color: rgb(140, 214, 206);
 }
 .add-button{
     width: 50px;
@@ -24,7 +24,7 @@
     font-size: 24px;
     font-weight: 800;
     margin: 5px;
-    border: 2px solid rgb(97, 97, 97);
+    border: 2px solid rgb(76, 177, 218);
     border-radius: 30px;
     outline: none;
     margin-left: 150px;
