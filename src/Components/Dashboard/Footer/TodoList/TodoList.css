@@ -8,4 +8,5 @@
     background-color: rgb(160, 212, 224);
     border:none;
     border-radius: 5%;
+    resize: none;
 }

@@ -43,7 +43,7 @@ function Body() {
                     <img src={require("../../../Assests/notes.png").default}  className="notes"></img>
                        
             
-                    <textarea className="postWriting" rows ="6" 
+                    <textarea className="postWriting" rows ="8" 
                     value={caption}
                     placeholder="Enter a caption..."
                     onChange={(e) => setCaption(e.target.value)}>

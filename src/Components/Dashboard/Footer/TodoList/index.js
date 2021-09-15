@@ -10,6 +10,7 @@ function TodoList({ todos }) {
              
                     <div className="displaytodo" key={todo.id}>
                         <textarea type="text" value={todo.title}
+                          rows='8'
                             className="list"
                             onChange={(event) => {
                                 event.preventDefault();
