@@ -6,6 +6,6 @@
     color: black;
     height: 60px;
     background-color: rgb(160, 212, 224);
-    border:1px solid rgb(46, 49, 49);
+    border:none;
     border-radius: 5%;
 }
