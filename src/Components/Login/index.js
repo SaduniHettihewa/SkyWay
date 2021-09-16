@@ -1,6 +1,5 @@
 import React from 'react'
 import './Login.css'
-import { Link } from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 //Login page
 
@@ -8,44 +7,29 @@ function Login() {
   const history = useHistory();
   return (
     <div className="Login">
-      <div>
+      
+     
         <img src={require("../../Assests/logo.png").default} className="LoginLogo"></img>
-      </div>
-
-      < div  >
-
-        <form className="loginView" >
-          <div className="LoginLable">
-            Login
+        <div  className="LoginView" >
+      <div>
+            <lable className="startText" > let's get started ..</lable>
+            <div>
+            <lable className="smalleText" > Explore your existed travel stories ..</lable>
           </div>
-
-          <label htmlFor="email">Email</label>
-          <input
-            id="email"
-            name="email"
-            type="text"
-            placeholder="Enter your email"
-          />
-
-          <label htmlFor="password">Password</label>
-          <input
-            id="password"
-            name="password"
-            type="password"
-            placeholder="Enter your password"
-          />
+          </div>
           <div className="buttondiv">
             <button type="submit" className="Loginbutton"  onClick={() => history.push("/Dashboard")}>
-              Login
+            <img src={require("../../Assests/google.png").default} className="Google"></img>
+            <div className="buttonText">
+            Signin with Google
+            </div>
+             
             </button>
           </div>
-          <div>
-            <lable className="account" > Don't have an account ?
-              <Link to="/Signup" className="SignupLink"> SignUp </Link></lable>
-          </div>
-        </form>
+         
+     </div>
       </div>
-    </div>
+  
 
   )
 }
